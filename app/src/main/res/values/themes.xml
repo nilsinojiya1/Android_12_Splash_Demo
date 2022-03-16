@@ -13,4 +13,21 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
+    <style name="Theme.AppSplash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_camera_edit</item>
+        <item name="windowSplashScreenAnimationDuration">900</item>
+        <item name="postSplashScreenTheme">@style/Theme.Android_12_Splash_Demo</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/white</item>
+        <item name="android:navigationBarColor">@color/white</item>
+
+        <!-- This is used for status bar hide and show-->
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- This use bottom brand image -->
+        <item name="android:windowSplashScreenBrandingImage" tools:targetApi="s">@drawable/ic_camera_edit</item>
+    </style>
+
 </resources>
